@@ -7,7 +7,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\SiteCss\AboutUs.css" />
+    <Content Remove="wwwroot\SiteCss\Contact.css" />
+    <Content Remove="wwwroot\SiteCss\SinglePage.css" />
+    <Content Remove="wwwroot\SiteCss\Site.css" />
+    <Content Remove="wwwroot\SiteCss\Socials.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\Index.html" />
+    <None Include="wwwroot\SiteCss\AboutUs.css" />
+    <None Include="wwwroot\SiteCss\Contact.css" />
+    <None Include="wwwroot\SiteCss\SinglePage.css" />
+    <None Include="wwwroot\SiteCss\Site.css" />
+    <None Include="wwwroot\SiteCss\Socials.css" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +30,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\Images\" />
+    <Folder Include="wwwroot\lib\" />
   </ItemGroup>
 
 </Project>
