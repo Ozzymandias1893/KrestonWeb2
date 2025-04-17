@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\Index.html" />
+    <None Include="wwwroot\index.html" />
     <None Include="wwwroot\SiteCss\AboutUs.css" />
     <None Include="wwwroot\SiteCss\Contact.css" />
     <None Include="wwwroot\SiteCss\SinglePage.css" />
