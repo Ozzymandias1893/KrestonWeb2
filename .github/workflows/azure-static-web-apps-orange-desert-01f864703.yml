@@ -28,8 +28,12 @@ jobs:
         id: idtoken
         with:
            script: |
-               const coredemo = require('@actions/core')
-               return await coredemo.getIDToken()
+             return await github.rest.actions.createWorkflowDispatch({
+               owner: context.repo.owner,
+               repo: context.repo.repo,
+               workflow: 'deploy.yml',
+               ref: 'main'
+             })
            result-encoding: string
 
       - name: Deploy Static Site
